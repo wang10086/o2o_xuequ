@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 页面基本样式 */
+
+/* 日程表格样式 */
+#calTable {
+	font-family:Arial;
+    font-size:12px;
+	width:100%;
+    border-collapse:collapse;
+    
+}
+/* 每日单元格样式 */
+#calTable td.calBox {
+    border:1px solid #dddddd;
+    width:100px;
+    height:92px;
+    vertical-align:top;
+	padding:0;
+}
+
+/* 每日单元格内日期样式 */
+td.calBox div.date {
+    /*background:#E8EEF7;*/
+    font-size:12px;
+    padding:2px;
+    cursor:pointer;
+	text-align:right;
+}
+td.calBox div.date:hover{
+	background:#eeeeee;
+}
+
+
+
+td.calBox div.nodate {
+    /*background:#E8EEF7;*/
+    font-size:12px;
+    padding:2px;
+    cursor:pointer;
+	text-align:right;
+}
+
+/* 每日单元格内周六周日样式 */
+td.sat div.date, td.sun div.date{
+   /* color:red; */
+}
+
+/* 今日样式 */
+td.calBox div.today {
+    /*background:#f1f1f1;*/
+	color:#ff3300;
+}
+
+td.sun,td.sat{
+	background:#fafafa;
+}
+
+/* 周标识样式 */
+#calTable td.day {
+    text-align:center;
+    background: #fafafa;
+    box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.02);
+    border: 1px solid #ddd;
+	line-height:30px;
+	padding:0;
+}
+
+/* 当前显示的年月样式 */
+#dateInfo {
+   
+    margin:3px;
+	font-size:18px;
+	font-family:'微软雅黑';
+}
+
+/* 添加任务div样式 */
+#addBox {
+    display:none;
+    position:absolute;
+    width:300px;
+    border:1px solid #000;
+    height:100px;
+    background:#FFFF99;
+    padding:10px;
+}
+
+/* 添加任务内日期样式 */
+#taskDate {
+    height:30px;
+    font-weight:bold;
+    padding:3px;
+}
+
+/* 按钮样式 */
+.taskBtn {
+    margin:10px;
+}
+
+/* 编辑任务div样式 */
+#editBox {
+    display:none;
+    position:absolute;
+    width:300px;
+    border:1px solid #000;
+    height:60px;
+    background:#99FF99;
+    padding:10px;
+}
+
+/* 任务样式 */
+div.task {
+    width:100%;
+	height:23px;
+	line-height:22px;
+    overflow:hidden;
+    white-space:nowrap;
+    background:rgb(245, 105, 84);
+	border-radius:4px;
+    border:1px solid #FFF;
+    color:#FFF;
+	padding:0 2px;
+    cursor:pointer;
+}
+
+
+div.task_red{
+	width:100%;
+    overflow:hidden;
+	height:23px;
+	line-height:22px;
+    white-space:nowrap;
+    background:rgb(245, 105, 84);
+	border-radius:4px;
+    border:1px solid #FFF;
+    color:#FFF;
+	padding:0 2px;
+    cursor:pointer;
+}
+
+div.task_blue{
+	width:100%;
+    overflow:hidden;
+	height:23px;
+	line-height:22px;
+    white-space:nowrap;
+    background:#00c0ef;
+	border-radius:4px;
+    border:1px solid #FFF;
+    color:#FFF;
+	padding:0 2px;
+    cursor:pointer;
+}
+
+div.task_yellow{
+	width:100%;
+	height:23px;
+	line-height:22px;
+    overflow:hidden;
+    white-space:nowrap;
+    background:#f39c12;
+	border-radius:4px;
+    border:1px solid #FFF;
+    color:#FFF;
+	padding:0 2px;
+    cursor:pointer;
+}
+
+div.task_hui{
+	width:100%;
+    overflow:hidden;
+	height:23px;
+	line-height:22px;
+    white-space:nowrap;
+    background:#999;
+	border-radius:4px;
+    border:1px solid #FFF;
+    color:#FFF;
+	padding:0 2px;
+    cursor:pointer;
+}

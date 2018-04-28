@@ -1,0 +1,221 @@
+﻿ 
+
+
+a.c-2-live,
+a.c-3-live,
+a.c-4-live {
+    padding: 3px 10px;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-radius: 20px; /* Gecko browsers */
+    -webkit-border-radius: 20px; /* Webkit browsers */
+    border-radius: 20px; /* W3C syntax */
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+a.c-2-live {
+    border-color: #f90;
+    color: #f90;
+}
+
+a.c-3-live {
+    border-color: #0099ff;
+    color: #0099ff;
+}
+
+a.c-4-live {
+    border-color: #9900ff;
+    color: #9900ff;
+}
+
+
+#confimUpdate {
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.remarkLength {
+    width: 600px;
+    max-width: 1000px;
+    margin: 5px;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+
+.txtmargin {
+    text-align: right;
+    margin-top: 5px;
+}
+
+/*学员基地评价样式  #estimateDiv*/
+
+#estimateDiv {
+    width: 800px;
+    height: auto;
+}
+
+
+#estimateDiv .basediv {
+        margin-left: 30%; 
+}
+
+#estimateDiv .valcolor {
+        color: red; 
+} 
+#estimateDiv .courseLeft, .coachRight {
+    margin-top:20px;
+    float:left;
+    width: 40%;
+     display:block;
+}
+
+    #estimateDiv .courseLeft {
+    margin-left:40px;
+    }
+    #estimateDiv .nameLable {
+    width:120px;
+    max-width:200px;
+    margin-bottom:15px;
+    text-align:right;
+     
+    }
+
+    #estimateDiv .objspan {
+    margin-top:10px;
+    }
+    #estimateDiv textarea {
+    max-width:none;
+    }
+    #estimateDiv .twoDiv {
+    display:block;  
+    }
+
+    #estimateDiv .threeDiv .fourDiv {
+    width:100%;
+    max-width:none;
+    float:left;
+    align-content:center;
+    }
+    #estimateDiv .threeDiv label {
+    margin-left:80px;
+    margin-top:50px;
+    }
+
+     #estimateDiv .threeDiv textarea{
+          margin-left:160px;
+          height:100px;
+          width:54%;
+    }
+    #estimateDiv .fourDiv input{ 
+         margin-left:40%;
+         margin-top:15px;
+}
+
+/*基地课程修改页面====Start====*/
+
+ #subForm input, select, textarea {
+ max-width:none;
+}
+/*#subForm .error {
+color:red;
+}*/
+
+#subForm .error {
+color:#ef660a;
+}
+
+/*基地课程修改页面======END====*/
+
+/* Detail预约页面   start*/
+
+#bookingMsg { 
+    height:45px;
+    color:red
+}
+/*Detail预约页面    end*/
+
+/*开班页面*/
+#coachEditMsg{
+    color:red;
+    margin-left:30px;
+    margin-top:6px;
+}
+
+#openClassMsg {
+     color:red;
+   width:100%;
+}
+
+/*开班调时间*/
+/*#UpdateAppDate div{
+    background:background: #F8F8F8 none repeat scroll 0% 0%; 
+}*/
+
+#UpdateAppDate {
+width:800px; 
+}
+
+.UpdatePage { 
+margin-top:18px; 
+}
+    
+#cancelClass{ 
+margin-left:30%;
+margin-top:10px;
+}
+
+
+/*活动详情页*/
+.TabDetail {
+    padding: 30px 60px;
+    margin-top: 14px;
+}
+.TabDetail .title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    color: #333333;
+}
+.TabDetail .details .courseInfo {
+    margin-bottom: -20px;
+}
+.TabDetail .details .courseInfo .tip {
+    color: #6d6d6e;
+}
+.TabDetail .details p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333333;
+}
+.TabDetail .details .courseInfo p {
+    color: #333333;
+    position: relative;
+    top: -20px;
+    left: 70px;
+    display: inline-block;
+    width: 630px;
+}
+
+/*预定页面锚点a标签的设置*/
+.tabsauto ul li a{ 
+    display:block;
+    width:100%;
+    height:100%; 
+    text-decoration:none;
+}
+
+/*黄色提示样式*/
+.orangetalk{
+color:#ff9419;
+}
+
+/*灰色提示*/
+.grayprompt{
+font-size: 12px;
+margin-right: 5px;
+color:#9d9d9d;
+}

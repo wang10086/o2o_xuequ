@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+html{ min-width:1200px;}
+body{font-family:"微软雅黑",Arial,Helvetica,sans-serif;font-size:14px; line-height:1.5;color:#666666;margin:0; padding:0; position:relative; background:#ffffff;}
+dl,dt,dd,ul,ol,li{padding:0;margin:0;border:0;}
+ul{list-style:none; list-style-type:none; margin:0; padding:0;}
+h1{font-family:"微软雅黑",Arial,Helvetica,sans-serif;font-size:22px; text-align:center; color:#000;margin:0;padding:0;}
+h2,h3{font-family:"微软雅黑",Arial,Helvetica,sans-serif;margin:0; padding:0; font-weight:normal;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;text-align:justify;}
+img{vertical-align:middle; border:0; cursor:pointer;}
+input::-ms-clear{ display:none;}
+input{font-family:"微软雅黑",Arial,Helvetica,sans-serif; outline:none;}
+p{ text-align:justify;}
+
+a{ text-decoration:none; color:#333333; cursor:pointer;} 
+a:hover{ color:#0066cc; text-decoration:none;}
+
+.unbox{ width:100%; height:auto !important; float:left; clear:both;}
+.content{ width:1080px; margin:0 auto;}
+.mt10{ margin-top:10px;}
+.gbg{background-color:#eeeeee;}
+.strstr{display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+/*public header*/
+.header{ height:90px; padding:10px 0;}
+.header .logo{ height:90px;width:500px; float:left; overflow:hidden; background:url(../images/web_logo3.png) no-repeat left center; background-size:auto 90px;}
+.header .search{ height:90px; width:314px; float:right; overflow:hidden;}
+.header .search .sfrom{ width:314px; height:40px; margin-top:30px; float:left; clear:both;}
+.header .search .sfrom input{ width:242px; height:30px; line-height:30px; padding:0 10px; border:1px solid #333333; float:left; overflow:hidden; outline:none;}
+.header .search .sfrom button{ width:50px; height:32px; line-height:32px; margin:0; padding:0; text-align:center; float:left; margin-left:-1px; background:#17337d; color:#ffffff; border:none; outline:none; cursor:pointer;}
+.crumbs{ border-bottom:1px solid #cccccc; color:#333333; height:40px; line-height:40px; padding:10px 0;}
+.crumbs a{ color:#333333;}
+.crumbs a:hover{ color:#17337d;}
+.crumbs span{ color:#333333;}
+
+.page{ width:100%; padding:30px 0; float:left; clear:both; text-align:center;}
+.page a{ margin:0 2px; padding:4px 15px; border:1px solid #e5e5e5; border-radius:2px;}
+.page a.on{ background:#17337d; border:1px solid #17337d; color:#ffffff;}
+.page a.no{ border:none;}
+.page a.ll{ background:url(../images/arrow_y_left.png) no-repeat left center; padding-left:16px;}
+.page a.rr{ background:url(../images/arrow_y_right.png) no-repeat right center; padding-right:16px;}
+
+/*public footer*/
+.footer{ background:#17337d; color:#ffffff; padding:15px 0; text-align:center; margin-top:20px;}
+
+/*public nav*/
+.nav{ height:50px; background:#17337d;}
+.nav ul{ width:1080px; height:44px; overflow:hidden;}
+.nav ul li{ width:14.2857%; height:44px; float:left; margin:0; padding:0; line-height:44px; font-size:14px; font-weight:normal; color:#ffffff;}
+.nav ul li a{ width:100%; height:44px; float:left; clear:both; text-align:center; color:#ffffff;}
+.nav ul li a.on{ background:#17337d; color:#ffffff; }
+.nav ul li a:hover{ background:#17337d; color:#ffc000; }
+
+.banner{ width:100%; height:auto !important; float:left; clear:both;}
+.banner img{ width:100%;}
+
+.hotnews{ width:750px; height:auto !important; float:left; clear:left;}
+.hotnews .slide{ width:440px; height:250px; float:left; clear:left;}
+.hotnews .slide img{ width:430px; height:250px;}
+.hotnews .nlist{ width:300px; height:250px; float:right; clear:right;}
+.hotnews .nlist h2{ width:300px; height:30px; padding-bottom:5px; float:left; clear:both; border-bottom:1px solid #dedede; color:#333333; font-size:18px; font-weight:normal;}
+.hotnews .nlist ul{ width:300px; height:200px; float:left; clear:both;}
+.hotnews .nlist ul li{ width:300px; height:60px; float:left; clear:both; border-bottom:1px dashed #dedede; margin-top:5px; padding-bottom:5px;}
+.hotnews .nlist ul li h3{ width:300px; height:20px; line-height:20px; float:left; clear:both; margin:0; padding:0; font-size:14px; font-weight:400; color:#333333;}
+.hotnews .nlist ul li p{ width:300px; height:20px; float:left; clear:both; line-height:20px; font-size:12px; color:#999999; margin:0; padding:0;}
+.hotnews .nlist ul li span{ width:300px; height:20px; line-height:20px; font-size:12px; color:#999999;}
+.hotnews .nlist ul li a:hover h3{ color:#0066CC;}
+
+.tagnews{ width:318px; height:250px; float:right; clear:right;}
+.tagnews .tagtit{ width:100%; height:34px; float:left; clear:both; background:url(../images/bg.png);}
+.tagnews .tagtit ul li{ width:106px;float:left; height:34px;line-height:34px; text-align:center; color:#ffffff; cursor:pointer;}
+.tagnews .tagtit ul li.on{ background:#17337d;}
+.tagnews .tagcon{ width:316px; height:216px; float:left; clear:both; border:1px solid #dedede; border-top:none; display:none}
+.tagnews .on{ display:block;}
+.tagnews .tagcon ul{ width:286px; height:186px; float:left; clear:both; padding:15px;}
+.tagnews .tagcon ul li{ width:286px; height:26px; float:left; clear:both; line-height:26px; font-size:14px; overflow:hidden;}
+
+.foruindex{ width:760px; height:320px; float:left; clear:both; margin-top:-10px; overflow:hidden;}
+.foruindex ul li{ width:370px; height:150px; float:left; margin-right:10px; margin-top:10px; position:relative;}
+.foruindex ul li img{ width:370px; height:150px;}
+.foruindex ul li a{ width:370px; height:150px; float:left; position:absolute; left:0; top:0; z-index:10;}
+.foruindex ul li a:hover{ background-color:rgba(0,0,0,0.2);}
+.foruindex ul li a i{ width:130px; height:40px; line-height:40px; text-align:center; font-weight: 700;font-style: normal;font-size:18px;float:left; margin:55px 120px; background-color:rgba(255,255,255,0.8); border-radius:40px; color:#17337d;}
+
+.column{ width:318px; height:286px; float:right; clear:right;}
+.column .colutit{ width:318px; height:62px; float:left; clear:both; background:#ff9933; line-height:62px; text-align:center;font-weight: 700;font-style: normal;font-size: 24px;color: #FFFFFF;}
+.column ul{ width:328px; height:248px; float:left; clear:both;}
+.column ul li{ width:152px; height:50px; line-height:50px; float:left; background:#eeeeee; margin:0; padding:0; margin-top:10px; margin-right:10px;text-align:center;font-weight: 400;font-style: normal;font-size:16px; border:1px solid #dedede; overflow:hidden; }
+.column ul li a{ width:152px; height:50px; float:left; line-height:50px; text-align:center; color:#333333;}
+.column ul li a:hover{ background:#dddddd; color:#333333;}
+
+.links{ width:750px; height:72px; float:left; clear:left; overflow:hidden; position:relative;}
+.links .linktit{ width:750px; height:30px; float:left; clear:both; background:#CFECFF;}
+.links .linktit ul li{ width:100px; float:left; height:30px; line-height:30px; text-align:center; color:#333333;}
+.links .linktit ul li.on{ background:#17337d; color:#ffffff; cursor:pointer;}
+.links .linkcon{ width:760px; height:auto !important; float:left; clear:both; position:absolute; left:0; bottom:0; margin-left:-5px; display:none; overflow:hidden;}
+.links .linkcon select{ width:243.3333px; height:28px; float:left; border:1px solid #dedede; float:left; margin:0 5px;}
+.links .linkcon a{ float:left; line-height:32px; text-align:left; margin-left:5px; margin-right:25px;}
+.links .on{ display:block;}
+.abcas{ float:right; clear:right; width:316px; height:70px; background:#eeeeee; text-align:center;  border:1px solid #dedede;}
+.abcas img{ height:40px; margin-top:15px;}
